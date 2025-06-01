@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolyPrism Branding & Design</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f2f5; /* Optional: a light background color */
+            font-family: sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        img.logo {
+            max-width: 80vw; /* Ensure logo is responsive */
+            max-height: 70vh; /* Ensure logo is responsive */
+            width: auto;      /* Maintain aspect ratio */
+            height: auto;     /* Maintain aspect ratio */
+        }
+        /* Optional: Add a simple message
+        p.message {
+            margin-top: 20px;
+            color: #333;
+            font-size: 1.2em;
+        }
+        */
+    </style>
+</head>
+<body>
+    <div class="container">
+        {{-- Make sure the path to your logo is correct relative to index.html --}}
+        <img src="images/pp-icon-512.svg" alt="PolyPrism Logo" class="logo">
+
+        {{-- Optional: Add a message
+        <p class="message">Coming Soon</p>
+        --}}
+    </div>
+</body>
+</html>
